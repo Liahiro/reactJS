@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul>li{
+    list-style-type: none;
+}
+
+ul>li>a{
+    color:orange;
+    padding: 10px;
+}
+ul>li>a:hover{
+    border: 1px solid orange;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: orange;
+}

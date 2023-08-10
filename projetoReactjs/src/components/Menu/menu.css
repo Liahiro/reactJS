@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul>li{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+ul>li>a{
+    color: white;
+    padding: 10px;
+    transition: .3s;
+}
+ul>li>a:hover{
+    border: 1px solid rgb(43, 42, 42);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+#vermelho{
+    height: 100px;
+    width: 100px;
+}
