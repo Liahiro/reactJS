@@ -17,7 +17,7 @@ export default function Menu() {
                     <Link to='/personagens'>Personagens</Link>
                 </li>
                 <li>
-                    <Link to='/mecanica'>Mecanica</Link>
+                    <Link to='/mecanica'>Mecanico</Link>
                 </li>
                 <li>
                     <Link to='/criador'>Criador</Link>
