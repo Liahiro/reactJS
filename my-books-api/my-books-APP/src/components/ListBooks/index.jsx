@@ -67,7 +67,7 @@ export default function ListBooks({books}) {
     <>
     <ItemLink href={books.url} target="_blank">
       <ItemConteiner>
-        <Thumbnaill src={books.image} />
+        <Thumbnaill src={books.img} />
         <Title>{books.title}</Title>
         <Price>R${books.price}</Price>
         <Button>Comprar</Button>
